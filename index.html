@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07070a">
+  <meta name="description" content="Um pequeno universo feito com carinho para Yasmim.">
+  <title>Para Yasmim — Um universo particular</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-fill"></span></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand-mark">M<span>✳</span>Y</span>
+      <span class="brand-caption">UM UNIVERSO PARTICULAR</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="#galeria">Fragmentos</a>
+      <a href="#memorias">Memórias</a>
+      <a href="#cartas">Palavras</a>
+      <a href="#poema" class="nav-cta">Feito para você <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-dark" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-image-wrap" aria-hidden="true">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=2200&q=90" alt="" fetchpriority="high">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> UMA PEQUENA GRANDE DEDICAÇÃO</p>
+        <h1 id="hero-title">Yas<span class="hero-title-light">mim</span><span class="hero-period">.</span></h1>
+        <p class="hero-copy">No meio de tanta coisa passageira,<br class="desktop-only"> você é uma das minhas partes favoritas da vida.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#galeria">Entrar no seu universo <span aria-hidden="true">↘</span></a>
+          <span class="hero-note">feito com intenção, detalhe e carinho</span>
+        </div>
+      </div>
+      <div class="hero-side-note" aria-hidden="true"><span>UM LUGAR SÓ SEU</span><i></i><span>01 / 07</span></div>
+      <a href="#manifesto" class="scroll-cue" aria-label="Rolar para a próxima seção"><span class="scroll-cue-line"></span><span>DESLIZE DEVAGAR</span></a>
+      <div class="hero-bottom-meta"><span>M · Y</span><span>UMA EXPERIÊNCIA FEITA À MÃO</span><span>2026</span></div>
+    </section>
+
+    <section class="manifesto section-pad" id="manifesto" aria-labelledby="manifesto-title">
+      <div class="section-topline reveal"><span>01 — UMA INTENÇÃO</span><span>PALAVRAS QUE FICAM</span></div>
+      <div class="manifesto-grid">
+        <p class="overline reveal">PARA LER SEM PRESSA</p>
+        <div class="manifesto-main reveal">
+          <h2 id="manifesto-title">Nem tudo que é importante precisa fazer <em>barulho.</em></h2>
+          <p>Às vezes, o carinho aparece nas pequenas coisas: no cuidado com uma palavra, no tempo dedicado, em lembrar de um detalhe que talvez ninguém mais perceba. Este espaço nasceu assim — com calma, pensando em você.</p>
+          <a class="text-link" href="#galeria">Ver os fragmentos <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="manifesto-aside reveal">
+          <span class="aside-star" aria-hidden="true">✳</span>
+          <p>UM SITE PEQUENO.<br>UM SENTIMENTO<br><em>QUE NÃO CABE NELE.</em></p>
+          <span class="aside-rule"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad section-dark" id="galeria" aria-labelledby="gallery-title">
+      <div class="section-topline reveal"><span>02 — FRAGMENTOS</span><span>COLEÇÃO PARTICULAR</span></div>
+      <div class="section-heading reveal">
+        <div>
+          <p class="overline">UM OLHAR, MUITAS LEMBRANÇAS</p>
+          <h2 id="gallery-title">Pequenos recortes<br><em>de beleza.</em></h2>
+        </div>
+        <p class="section-heading-copy">Algumas imagens dizem muito antes mesmo de qualquer palavra. Toque em uma foto para vê-la de perto.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-item-tall reveal" type="button" data-gallery="0" aria-label="Ampliar fotografia 1">
+          <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1100&q=85" alt="Casal em um momento tranquilo" loading="lazy">
+          <span class="gallery-overlay"><span>01 / PRESENÇA</span><i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery="1" aria-label="Ampliar fotografia 2">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1300&q=85" alt="Duas pessoas compartilhando um momento especial" loading="lazy">
+          <span class="gallery-overlay"><span>02 / CONEXÃO</span><i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="gallery-item gallery-item-small reveal" type="button" data-gallery="2" aria-label="Ampliar fotografia 3">
+          <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1000&q=85" alt="Flores delicadas sob luz suave" loading="lazy">
+          <span class="gallery-overlay"><span>03 / DELICADEZA</span><i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="gallery-item gallery-item-medium reveal" type="button" data-gallery="3" aria-label="Ampliar fotografia 4">
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1100&q=85" alt="Flores em tons suaves" loading="lazy">
+          <span class="gallery-overlay"><span>04 / LEVEZA</span><i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="gallery-item gallery-item-portrait reveal" type="button" data-gallery="4" aria-label="Ampliar fotografia 5">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1100&q=85" alt="Retrato feminino em luz natural" loading="lazy">
+          <span class="gallery-overlay"><span>05 / LUZ PRÓPRIA</span><i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="gallery-item gallery-item-wide-bottom reveal" type="button" data-gallery="5" aria-label="Ampliar fotografia 6">
+          <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1300&q=85" alt="Flores em uma composição romântica" loading="lazy">
+          <span class="gallery-overlay"><span>06 / AQUILO QUE FICA</span><i aria-hidden="true">↗</i></span>
+        </button>
+      </div>
+      <p class="gallery-footnote reveal"><span class="tiny-dot"></span> IMAGENS ILUSTRATIVAS — SUBSTITUA PELAS SUAS FOTOS FAVORITAS</p>
+    </section>
+
+    <section class="memories-section section-pad" id="memorias" aria-labelledby="memories-title">
+      <div class="section-topline reveal"><span>03 — O QUE EU GUARDO</span><span>DETALHES INVISÍVEIS</span></div>
+      <div class="section-heading reveal">
+        <div>
+          <p class="overline">NÃO É SOBRE GRANDES GESTOS</p>
+          <h2 id="memories-title">É sobre aquilo<br>que <em>permanece.</em></h2>
+        </div>
+        <p class="section-heading-copy">Toque nos cartões. Cada um guarda uma mensagem que merece ser lida com atenção.</p>
+      </div>
+      <div class="memory-grid">
+        <button class="memory-card reveal" type="button" data-memory="0" aria-expanded="false">
+          <span class="memory-index">01</span><span class="memory-symbol" aria-hidden="true">✳</span>
+          <span class="memory-title">Seu jeito de ser</span><span class="memory-teaser">A beleza que não depende do espelho.</span>
+          <span class="memory-more">LER DETALHE <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="memory-card memory-card-featured reveal" type="button" data-memory="1" aria-expanded="false">
+          <span class="memory-index">02</span><span class="memory-symbol" aria-hidden="true">⌁</span>
+          <span class="memory-title">A paz que você traz</span><span class="memory-teaser">Tem presença que transforma o dia.</span>
+          <span class="memory-more">LER DETALHE <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-memory="2" aria-expanded="false">
+          <span class="memory-index">03</span><span class="memory-symbol" aria-hidden="true">◌</span>
+          <span class="memory-title">O que desejo a você</span><span class="memory-teaser">Que a vida seja gentil com seu coração.</span>
+          <span class="memory-more">LER DETALHE <i aria-hidden="true">↗</i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="letters-section section-pad section-dark" id="cartas" aria-labelledby="letters-title">
+      <div class="section-topline reveal"><span>04 — PALAVRAS GUARDADAS</span><span>ABRA QUANDO QUISER</span></div>
+      <div class="letters-heading reveal">
+        <p class="overline">TRÊS PEQUENAS PAUSAS</p>
+        <h2 id="letters-title">Cartas para<br><em>dias diferentes.</em></h2>
+        <p>Não existe uma hora certa para receber carinho. Escolha uma carta e abra no seu tempo.</p>
+      </div>
+      <div class="letters-grid">
+        <button class="letter-card reveal" type="button" data-letter="0" aria-label="Abrir carta para um dia difícil">
+          <span class="letter-topline"><span>01</span><span>PARA GUARDAR</span></span>
+          <span class="envelope-art" aria-hidden="true"><span class="envelope-fold"></span><span class="envelope-seal">M<span>✳</span>Y</span></span>
+          <span class="letter-label">Abra quando...</span>
+          <strong>o dia estiver pesado.</strong>
+          <span class="letter-open">ABRIR CARTA <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="letter-card letter-card-highlight reveal" type="button" data-letter="1" aria-label="Abrir carta para quando sentir saudade">
+          <span class="letter-topline"><span>02</span><span>COM CALMA</span></span>
+          <span class="envelope-art" aria-hidden="true"><span class="envelope-fold"></span><span class="envelope-seal">M<span>✳</span>Y</span></span>
+          <span class="letter-label">Abra quando...</span>
+          <strong>a saudade aparecer.</strong>
+          <span class="letter-open">ABRIR CARTA <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="letter-card reveal" type="button" data-letter="2" aria-label="Abrir carta para quando precisar lembrar do próprio valor">
+          <span class="letter-topline"><span>03</span><span>UM LEMBRETE</span></span>
+          <span class="envelope-art" aria-hidden="true"><span class="envelope-fold"></span><span class="envelope-seal">M<span>✳</span>Y</span></span>
+          <span class="letter-label">Abra quando...</span>
+          <strong>precisar se lembrar.</strong>
+          <span class="letter-open">ABRIR CARTA <i aria-hidden="true">↗</i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="poem-section section-pad" id="poema" aria-labelledby="poem-title">
+      <div class="poem-glow poem-glow-pink" aria-hidden="true"></div>
+      <div class="poem-glow poem-glow-purple" aria-hidden="true"></div>
+      <div class="section-topline reveal"><span>05 — O CENTRO DE TUDO</span><span>ESCRITO PARA VOCÊ</span></div>
+      <div class="poem-shell reveal">
+        <div class="poem-shell-glint" aria-hidden="true"></div>
+        <div class="poem-header"><span class="poem-chip"><span class="tiny-dot"></span> UMA PEÇA ÚNICA</span><span class="poem-edition">EDIÇÃO Nº 001 / Y</span></div>
+        <div class="poem-content">
+          <p class="overline">EM PALAVRAS, UM POUCO DE VOCÊ</p>
+          <h2 id="poem-title">Para a menina<br>que faz o <em>simples</em><br>ser extraordinário.</h2>
+          <div class="poem-divider"><span></span><i aria-hidden="true">✳</i><span></span></div>
+          <div class="poem-text" id="poem-text">
+            <p>Há beleza que os olhos percebem,<br>e há aquela que a gente sente devagar.</p>
+            <p>A sua mora nos pequenos detalhes,<br>no seu jeito único de existir,<br>na luz que você carrega sem notar.</p>
+            <p>Não quero encontrar palavras perfeitas.<br>Quero que, entre estas linhas imperfeitas,<br>você encontre uma verdade:</p>
+            <p class="poem-emphasis">você importa.<br>Você é especial.<br>E merece o que há de mais bonito.</p>
+          </div>
+          <div class="poem-signature"><span>com todo o meu carinho,</span><strong>Marcelo<span> ✳</span></strong></div>
+        </div>
+        <div class="poem-footer"><span>FEITO À MÃO, MESMO SENDO DIGITAL</span><span>PARA YASMIM <span class="pink-star">✳</span></span></div>
+      </div>
+      <p class="poem-caption reveal">Algumas palavras não precisam ser grandes.<br>Só precisam ser verdadeiras.</p>
+    </section>
+
+    <section class="surprises-section section-pad section-dark" id="surpresas" aria-labelledby="surprises-title">
+      <div class="section-topline reveal"><span>06 — SÓ MAIS UM DETALHE</span><span>PEQUENAS SURPRESAS</span></div>
+      <div class="surprises-intro reveal">
+        <p class="overline">AINDA TEM MAIS</p>
+        <h2 id="surprises-title">Porque carinho<br>também é <em>surpresa.</em></h2>
+        <p>Escolha um dos pequenos segredos abaixo. Cada botão guarda algo diferente.</p>
+      </div>
+      <div class="surprise-grid">
+        <button class="surprise-tile reveal" type="button" data-surprise="message">
+          <span class="surprise-number">SURPRESA / 01</span>
+          <span class="surprise-icon" aria-hidden="true">✧</span>
+          <strong>Uma coisa que talvez eu não diga sempre</strong>
+          <span class="surprise-link">REVELAR <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="surprise-tile reveal" type="button" data-surprise="photo">
+          <span class="surprise-number">SURPRESA / 02</span>
+          <span class="surprise-icon surprise-icon-photo" aria-hidden="true">▧</span>
+          <strong>Um instante bonito para guardar</strong>
+          <span class="surprise-link">VER FOTO <i aria-hidden="true">↗</i></span>
+        </button>
+        <button class="surprise-tile reveal" type="button" data-surprise="quote">
+          <span class="surprise-number">SURPRESA / 03</span>
+          <span class="surprise-icon" aria-hidden="true">“ ”</span>
+          <strong>Um lembrete para levar com você</strong>
+          <span class="surprise-link">DESCOBRIR <i aria-hidden="true">↗</i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="final-section" id="final" aria-labelledby="final-title">
+      <canvas class="particle-canvas" id="particle-canvas" aria-hidden="true"></canvas>
+      <div class="final-halo" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="final-content reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> E, NO FIM DE TUDO...</p>
+        <div class="final-emblem" aria-hidden="true"><span class="emblem-core">M<span>✳</span>Y</span></div>
+        <h2 id="final-title">Que a vida te devolva<br>toda a <em>luz</em> que você oferece.</h2>
+        <p class="final-copy">Este pequeno universo termina aqui.<br>Meu carinho por você não precisa terminar em lugar nenhum.</p>
+        <p class="final-signature">Com amor, <span>Marcelo.</span></p>
+        <a class="back-to-top" href="#topo">VOLTAR AO INÍCIO <span aria-hidden="true">↑</span></a>
+      </div>
+      <footer class="site-footer">
+        <span>© 2026 · UM UNIVERSO PARTICULAR</span>
+        <span>CRIADO COM INTENÇÃO <i aria-hidden="true">✳</i></span>
+        <span>PARA YASMIM</span>
+      </footer>
+    </section>
+  </main>
+
+  <div class="modal" id="site-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="Fechar janela" data-close-modal><span></span><span></span></button>
+      <div class="modal-kicker" id="modal-kicker">UMA MENSAGEM PARA VOCÊ</div>
+      <h2 class="modal-title" id="modal-title">Um detalhe especial.</h2>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer"><span>M <i>✳</i> Y</span><span>GUARDE COM CARINHO</span></div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visualizador de fotografias">
+    <button class="lightbox-close" type="button" aria-label="Fechar fotografia">×</button>
+    <button class="lightbox-nav lightbox-prev" type="button" aria-label="Fotografia anterior">←</button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-image" src="" alt="">
+      <figcaption><span id="lightbox-caption">01 / PRESENÇA</span><span>USE ← → PARA NAVEGAR</span></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" type="button" aria-label="Próxima fotografia">→</button>
+  </div>
+
+  <noscript><div class="noscript-notice">Este site tem algumas experiências interativas. Ative o JavaScript do navegador para aproveitar todos os detalhes.</div></noscript>
+</body>
+</html>
